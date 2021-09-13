@@ -1,0 +1,127 @@
+:root{
+    --primary: #46DB92;
+    --primary-dark: #1F8F59;
+    --highlighted: #6bffb8;
+    --secondary: #DB5846;
+    --secondary-dark:#8F2011;
+}
+
+.navbar-space{
+    background-color: transparent;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;    
+    width: 100%;
+}
+
+.navigation-bar{
+    background-color: #64e0a4;
+    width: 100vw;
+    height: 65px;    
+    display: flex;    
+    align-items: center;
+    
+}
+
+.navigation-bar-content{
+    display: flex;
+    background-color: transparent;    
+    align-items: center;    
+    width: 100%;    
+    margin: 0 auto;
+}
+
+.navigation-bar-content div{
+    margin: 10px 20px;
+}
+.navdropdown-close{
+    display: none;
+}
+.navdropdown-open{    
+    background: white;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.3s ease-out;
+    display: flex;
+    flex-direction: column;        
+    z-index: 2;
+}
+.navdropdown-open li{
+    display: block;
+    text-align: center;
+    margin: 3rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;    
+    transition: all 0.3s ease-out;    
+}
+.navdropdown-open li:hover{
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+}
+
+.icon{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.hamburger{
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: .7s;
+}
+.hamburger:hover{
+    color: black;
+}
+
+
+/*links*/
+ul{
+    list-style: none;
+}
+.navigation-bar-content .icon{
+    margin-right: auto;
+}
+.navigation-bar-content .navlink{
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: .7s;    
+    padding: 0 .5rem 10px;
+   
+
+    border-bottom: rgba(0, 0, 0, 0) solid 1px;
+    font-size: 15px;
+}
+.navigation-bar-content .navlink:hover{
+    color:black;    
+    border-bottom: black solid 2px;
+}
+
+
+@media (min-width:500px){
+    .navbar-space{    
+        margin-top: 10px;      
+}
+    .navigation-bar{
+        width: 95vw;
+       
+    }
+    .navigation-bar-content{
+        width: 95vw;        
+    }
+}
+@media (min-width:1366px){
+     .navigation-bar-content{
+        width: 90vw;        
+    }
+}

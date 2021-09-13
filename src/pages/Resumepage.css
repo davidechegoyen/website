@@ -1,0 +1,56 @@
+.resumepage-bg{
+       
+    display: flex;
+    justify-content: center;    
+    
+
+}
+.resumepage-content{   
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+    margin: 200px 0;
+    font-size: 12px;
+}
+.blocks{
+    margin: 2rem 0;
+}
+
+.profile--img{
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 1rem;  
+    margin-right: 2rem;  
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-icons{
+    margin: 1rem 1rem 0 0;
+    padding: .5rem;
+    background: #db5746a9;
+    border-radius: 10px;
+}
+.workhistory-content{
+    margin:1rem 0
+}
+
+@media (min-width:500px){
+    .resumepage-content{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1000px){
+    .row{
+    display: flex;
+}
+    .resumepage-content{
+        width: 60vw;
+    }
+}

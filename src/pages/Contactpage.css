@@ -1,0 +1,32 @@
+.contactpage-bg{
+    margin-top: -100px;       
+    display: flex;
+    justify-content: center;       
+    
+}
+.contactpage-content{        
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:2rem;    
+    word-wrap: break-word;
+    margin: 100px 0;
+    font-size: 10px;
+}
+
+@media (min-width:500px){
+    .contactpage-content{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1000px){
+    .contactpage-content{
+        width: 60vw;
+    }
+}
+
+
+          
