@@ -2,6 +2,7 @@ import './Navbar.css';
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Navbar = () => {
     //Navigation bar states
     const [hamburger, hamburgerSetState] = useState(false)

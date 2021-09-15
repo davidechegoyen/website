@@ -34,6 +34,9 @@ const Resumepage = () => {
                             <p>Troubleshoot network connection issues and software compatibility issues</p>                        
                     </div>                    
                 </div>
+                <div className="blocks">
+                    <p>Resume PDF download <a href="https://drive.google.com/file/d/12LrumndLptz4Wqy88EmsyufyXL0Q8e6l/view?usp=sharing" target="_blank" rel="noreferrer"><i className="fas fa-cloud-download-alt"></i></a></p>
+                </div>
 
             </div>
         </div>
