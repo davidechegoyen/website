@@ -30,7 +30,7 @@ const Projects = () => {
                         <img src={crudimg} alt='crud--img'></img>
                         <p>A simple application that creates profiles that can be edited or deleted from a database</p>
                         <p><strong>HTML <i className="fab fa-html5"></i>, CSS <i className="fab fa-css3-alt"></i>, React <i className="fab fa-react"></i>, Node JS <i className="fab fa-node-js"></i>, Mongo DB</strong></p>
-                        <Button buttonStyle="btn--basic">Live</Button>
+                        <Button buttonStyle="btn--basic"><a href="https://davidechegoyen.github.io/crud-application-deploy/" target="_blank" rel="noreferrer">Live</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/crud-application-deploy/tree/master" target="_blank" rel="noreferrer">Client Github</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/crud-application-crud-server" target="_blank" rel="noreferrer">Server Github</a></Button>
                     </div>   
@@ -39,7 +39,7 @@ const Projects = () => {
                         <img src={loginauthimg} alt="loginauth--img"/>
                         <p>A simple application that lets you login or create your account. Information is stored in a database</p>
                         <p><strong>HTML <i className="fab fa-html5"></i>, CSS <i className="fab fa-css3-alt"></i>, React <i className="fab fa-react"></i>, Node JS <i className="fab fa-node-js"></i>, Mongo DB</strong></p>
-                        <Button buttonStyle="btn--basic">Live</Button>
+                        <Button buttonStyle="btn--basic"><a href="https://davidechegoyen.github.io/login-authenticator-project/" target="_blank" rel="noreferrer">Live</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/login-authenticator-project" target="_blank" rel="noreferrer">Client Github</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/login-authenticator-server" target="_blank" rel="noreferrer">Server Github</a></Button>
                     </div>    
