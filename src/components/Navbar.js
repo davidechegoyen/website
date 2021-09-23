@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="navbar-space">
                 <div className="navigation-bar">
                     <div className="navigation-bar-content">
-                        <div className="icon"><Link to="/website" onClick={closeHamgurberOnClick}>dee</Link></div>
+                        <div className="icon"><Link to="/" onClick={closeHamgurberOnClick}>dee</Link></div>
                         <div className="hamburger" onClick={hamburgerOnClick}>
                             {hamburger?<i className="fas fa-times fa-2x"></i>:<i className="fas fa-bars fa-2x"></i>}
                         </div>                        
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className="navbar-space">
                 <div className="navigation-bar">
                     <div className="navigation-bar-content">
-                        <div className="icon"><Link to="/website">dee</Link></div>   
+                        <div className="icon"><Link to="/">dee</Link></div>   
                         <ul>
                             <li>
                                 {/* <Link className="navlink" to="/about"><i className="fas fa-guitar"></i> About me</Link> */}

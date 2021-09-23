@@ -12,10 +12,10 @@ import Contactpage from './pages/Contactpage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website">
       <Navbar />
       <Switch>        
-        <Route exact path="/website"> 
+        <Route exact path="/"> 
           <Homepage />
         </Route>
         <Route path="/about">
