@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.07d303a4.chunk.css",
-    "main.js": "/website/static/js/main.d91dd529.chunk.js",
-    "main.js.map": "/website/static/js/main.d91dd529.chunk.js.map",
+    "main.js": "/website/static/js/main.122a5202.chunk.js",
+    "main.js.map": "/website/static/js/main.122a5202.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.b3a98215.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.b3a98215.js.map",
     "static/js/2.9be6f13d.chunk.js": "/website/static/js/2.9be6f13d.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.07d303a4.chunk.css.map": "/website/static/css/main.07d303a4.chunk.css.map",
     "static/js/2.9be6f13d.chunk.js.LICENSE.txt": "/website/static/js/2.9be6f13d.chunk.js.LICENSE.txt",
     "static/media/homepage1.860bbecd.JPG": "/website/static/media/homepage1.860bbecd.JPG",
+    "static/media/mainimage.529ff310.JPG": "/website/static/media/mainimage.529ff310.JPG",
     "static/media/mainpagepic.8b3ac189.JPG": "/website/static/media/mainpagepic.8b3ac189.JPG",
     "static/media/me.85b26ded.jpg": "/website/static/media/me.85b26ded.jpg",
     "static/media/userspic.6f765a52.JPG": "/website/static/media/userspic.6f765a52.JPG"
@@ -19,6 +20,6 @@
     "static/js/runtime-main.b3a98215.js",
     "static/js/2.9be6f13d.chunk.js",
     "static/css/main.07d303a4.chunk.css",
-    "static/js/main.d91dd529.chunk.js"
+    "static/js/main.122a5202.chunk.js"
   ]
 }
