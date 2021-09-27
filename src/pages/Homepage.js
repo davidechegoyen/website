@@ -6,8 +6,9 @@ import { useState } from 'react'
 import img1 from '../images/ecommerce/homepage1.JPG'
 import img2 from '../images/crud/userspic.JPG'
 import img3 from '../images/loginauth/mainpagepic.JPG'
+import img4 from '../images/foodrecipeapplication/mainimage.JPG'
 
-const imgArray = [img1,img2,img3]
+const imgArray = [img1,img2,img3,img4]
 
 const Homepage = () => {
 

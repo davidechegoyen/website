@@ -4,6 +4,7 @@ import Button from '../components/Button'
 import ecommerceimg from '../images/ecommerce/homepage1.JPG'
 import crudimg from '../images/crud/userspic.JPG'
 import loginauthimg from '../images/loginauth/mainpagepic.JPG'
+import foodappimg from '../images/foodrecipeapplication/mainimage.JPG'
 
 const Projects = () => {
     return (
@@ -21,7 +22,6 @@ const Projects = () => {
                         <p><strong>HTML <i className="fab fa-html5"></i>, CSS <i className="fab fa-css3-alt"></i>, React <i className="fab fa-react"></i></strong></p>
                         <Button buttonStyle="btn--basic"><a href="https://davidechegoyen.github.io/react-deploy-test/" target="_blank" rel="noreferrer">Live</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/react-deploy-test/tree/master" target="_blank" rel="noreferrer">Github</a></Button>
-                        
 
                         
                     </div>        
@@ -42,6 +42,15 @@ const Projects = () => {
                         <Button buttonStyle="btn--basic"><a href="https://davidechegoyen.github.io/login-authenticator-project/" target="_blank" rel="noreferrer">Live</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/login-authenticator-project" target="_blank" rel="noreferrer">Client Github</a></Button>
                         <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/login-authenticator-server" target="_blank" rel="noreferrer">Server Github</a></Button>
+                    </div>    
+                    <div className="project-card">
+                        <h1>Food application</h1>
+                        <img src={foodappimg} alt="foodapp--img"/>
+                        <p>An application that searches recipes for an ingredient you typed in the search box</p>
+                        <p>It incorporates theamealdb.com's public meal API</p>
+                        <p><strong>HTML <i className="fab fa-html5"></i>, CSS <i className="fab fa-css3-alt"></i>, React <i className="fab fa-react"></i>, Node JS <i className="fab fa-node-js"></i>, Mongo DB</strong></p>
+                        <Button buttonStyle="btn--basic"><a href="https://davidechegoyen.github.io/foodrecipe-application/" target="_blank" rel="noreferrer">Live</a></Button>
+                        <Button buttonStyle="btn--basic"><a href="https://github.com/davidechegoyen/foodrecipe-application/tree/master" target="_blank" rel="noreferrer">Client Github</a></Button>
                     </div>    
                 </div>          
                       
